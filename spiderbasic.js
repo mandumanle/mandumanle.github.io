@@ -8,7 +8,7 @@ var _S3="nami";
 var _S7="Si us plau, escriu la teva resposta...";
 var _S1="andrea";
 var _S2="Felicitats Andrea, avui es el teu Aniversari!";
-var _S4="bgandrea.wav";
+var _S4="bg.wav";
 var _S6="Qui és la més Bonica...?";
 if("undefined"==typeof Spider)var Spider={};spider.systembase={localFiles:null,getLocalFile:function(a){for(var b=0;b<this.localFiles.length;b++)if(1==spider.systembase.localFilesType){if(this.localFiles[b][google.picker.Document.ID]===a)return this.localFiles[b]}else if(this.localFiles[b].name===a)return this.localFiles[b];return null}};function spider_BankerRound(a){return 0>a?Math.ceil(a-0.5):Math.floor(a+0.5)}function spider_CastByte(a){a&=255;return 127<a?-(256-a):a}
 function spider_CastCharacter(a){return a&65535}function spider_CastAscii(a){return a&255}function spider_CastUnicode(a){return a&65535}function spider_CastWord(a){a&=65535;return 32767<a?-(65536-a):a}function spider_CastLong(a){a&=4294967295;return 2147483647<a?-(4294967296-a):a}function spider_CastQuad(a){return 0<=a?Math.floor(a):Math.ceil(a)}function spider_XOr(a,b){return(a||b)&&!(a&&b)}function spider_AssignFixedString(a,b){return b<a.length?a.substring(0,b):a}
